@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editkaro.in Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Editkaro.in Portfolio</h1>
+    <nav>
+      <ul class="category-filters">
+        <li data-category="all">All</li>
+        <li data-category="short-form">Short-form Videos</li>
+        <li data-category="long-form">Long-form Videos</li>
+        <li data-category="gaming">Gaming Videos</li>
+        <li data-category="football">Football Edits</li>
+        <li data-category="ecommerce">eCommerce Ads</li>
+        <li data-category="documentary">Documentary Style</li>
+        <li data-category="color-grading">Color Grading</li>
+        <li data-category="anime">Anime Videos</li>
+        <li data-category="ads">Ads</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="portfolio">
+    <div class="video-card" data-category="short-form">
+      <video src="short-form.mp4" controls></video>
+      <h3>Short-form Video 1</h3>
+    </div>
+
+    <div class="video-card" data-category="long-form">
+      <video src="long-form.mp4" controls></video>
+      <h3>Long-form Video 1</h3>
+    </div>
+
+    <div class="video-card" data-category="gaming">
+      <video src="gaming-video.mp4" controls></video>
+      <h3>Gaming Video 1</h3>
+    </div>
+
+    <div class="video-card" data-category="football">
+      <video src="football-edit.mp4" controls></video>
+      <h3>Football Edit 1</h3>
+    </div>
+
+    <!-- Add more video cards for each category -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
